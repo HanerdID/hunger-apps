@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Temukan Berbagai Restoran Terbaik di Hunger Apps. Jelajahi dan temukan pengalaman makan yang akan menjadi favorit Anda selanjutnya."
+    />
+    <link rel="icon" href="./favicon.png" />
+    <link rel="manifest" href="./app.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hunger Apps</title>
+  </head>
+
+  <body>
+    <a
+      class="skip-link"
+      aria-label="skip-link button"
+      tabindex="0"
+      href="#mainContent"
+      >Skip to Content</a
+    >
+    <header>
+      <nav>
+        <div class="navbar" id="navcontainer">
+          <div class="navbar-content">
+            <a href="/#">Hunger Apps</a>
+            <button id="menu" class="header_menu" aria-label="dropdown toggler">
+              <i class="fa fa-navicon"></i>
+            </button>
+          </div>
+
+          <div class="navbar-list" id="navbar-menu">
+            <ul class="dropdown-list">
+              <li>
+                <a href="/#">Home</a>
+              </li>
+              <li>
+                <a href="#/favorite">Favorite</a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/fikri-prasetya-nurhidayat-1aa52713a/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >About Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <picture>
+        <source
+          media="(max-width: 700px)"
+          srcset="images/heros/hero-image_4.jpg"
+          class="lazyload"
+        />
+        <source
+          media="(max-width: 1000px)"
+          srcset="images/heros/hero-image_3.jpg"
+          class="lazyload"
+        />
+        <img src="images/heros/hero-image_1.jpg" alt="Hero Image" class="lazyload"/>
+      </picture>
+      <div class="hero-description">
+        <h2>Temukan Berbagai Restoran Terbaik</h2>
+        <p>
+          Jelajahi berbagai restoran dan temukan pengalaman makan yang akan
+          menjadi favorit Anda selanjutnya
+        </p>
+      </div>
+    </div>
+
+    <main id="mainContent" class="main-resto_container"></main>
+
+    <footer>
+      <p class="footer-text">Copyright &copy; 2020 - Hunger Apps</p>
+    </footer>
+  </body>
+</html>
