@@ -771,6 +771,19 @@ form {
     border-radius: 20px;
   }
 
+  .hero-description{
+    max-width: 600px;
+    max-height: 400px;
+  }
+  .hero-description h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.hero-description p {
+  font-size: 16px;
+}
+
   .main-resto_container {
     padding: 25px 20px;
   }
